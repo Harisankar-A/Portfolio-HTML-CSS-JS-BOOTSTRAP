@@ -222,3 +222,18 @@ ul li {
     text-decoration: none;
     cursor: text;
  }
+
+ #resume{
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 200ms;
+ }
+
+ #resume:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+ }
