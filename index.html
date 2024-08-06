@@ -46,7 +46,7 @@
         <h1 class="display-4">Hi, I am Harisankar</h1>
         <p style="height: 30px;">
             <a href="#" id="animated-heading"></a><br><br>
-            <a href="#nnav" id="resume" onclick="window.open('https://drive.google.com/file/d/1JcSm_2pqiJMlOuIYfbbpwcBE8HQGcka5/view?usp=drivesdk')"> <i class="fa-solid fa-download"></i> Resume</a>
+            <a href="#nnav" id="resume" class= "button" onclick="window.open('https://drive.google.com/file/d/1JcSm_2pqiJMlOuIYfbbpwcBE8HQGcka5/view?usp=drivesdk')"> <i class="fa-solid fa-download"></i> Resume</a>
         </p>
 
     </header>
@@ -131,7 +131,7 @@
                             <br>
                         </p>
                         <p>
-                            <button class="proj"
+                            <button class="proj button"
                                 onclick="window.location.href ='https://github.com/Harisankar-A-18/E-D-Software';">Repository</button>
                         </p>
 
@@ -162,7 +162,7 @@
         </div>
 
         <section id="backtotop" data-aos="zoom-in">
-            <a href="#nnav"> <i class="fa-solid fa-arrow-up"></i> Back to top</a>
+            <a href="#nnav" class="button"> <i class="fa-solid fa-arrow-up"></i> Back to top</a>
             <br><br>
         </section>
     </main>
@@ -204,6 +204,17 @@
 
             type();
         });
+        document.addEventListener('DOMContentLoaded', () => {
+      const button = document.querySelector('.button');
+      
+      button.addEventListener('touchstart', () => {
+        button.classList.add('touch');
+      });
+
+      button.addEventListener('touchend', () => {
+        button.classList.remove('touch');
+      });
+    });
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
