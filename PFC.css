@@ -237,3 +237,9 @@ ul li {
     color: black;
     border: 1px solid;
  }
+
+.button.touch {
+  background-color: white;
+    color:black;
+}
+
