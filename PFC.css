@@ -238,11 +238,12 @@ ul li {
     border: 1px solid;
  }
 
-.button.touch {
-  background-color: white;
-    color:black;
+.button:visited {
+  background-color: black;
+    color:white;
 }
 
 #resume:visited{
     background-color:black;
     color:white;
+}
