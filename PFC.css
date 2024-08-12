@@ -229,6 +229,7 @@ ul li {
     background-color: #000000;
     padding: 15px;
     border-radius: 10px;
+    border: 1px solid;
     transition: all 200ms;
  }
 
